@@ -1,0 +1,27 @@
+
+*header* -> *description of the header*
+
+Request Headers
+
+User-Agent: PostmanRuntime/7.26.10 -> identifier for application type and version
+Accept: */* -> what content types can the client understand
+Postman-Token: 64a5d551-aeea-4a36-a91d-3b2685631d70 -> authorization for postman
+Host: www.googleapis.com -> identifies the host and port number of the server the request is being sent to
+Accept-Encoding: gzip, deflate, br -> types of encoding methods that are acceptable
+Connection: keep-alive -> connection state
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8 -> what content type the returned content is
+Vary: Origin -> determines how to match future request headers to decide whether a cached response could be used
+Vary: X-Origin-> determines how to match future request headers to decide whether a cached response could be used
+Vary: Referer-> determines how to match future request headers to decide whether a cached response could be used
+Content-Encoding: gzip -> how is the response encoded
+Date: Thu, 28 Jan 2021 22:00:47 GMT -> date when response was sent
+Server: ESF -> description of the software used by the origin server that handled the request
+Cache-Control: private -> holds instructions for caching
+X-XSS-Protection: 0 -> this is a feature of most browsers that stops pages from loading when cross-site scripting attacks are executed
+X-Frame-Options: SAMEORIGIN -> render options for if the browser should render a different page
+X-Content-Type-Options: nosniff -> marker used to indicate that the MIME types advertised in the content headers should not be changed
+Alt-Svc: h3-29=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43" -> used to advertise alternative services in which the same resource can be reached
+Transfer-Encoding: chunked -> encoding type of how the data will be transferred
